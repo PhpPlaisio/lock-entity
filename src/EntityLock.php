@@ -11,7 +11,7 @@ interface EntityLock
   /**
    * Acquires a lock on an object.
    *
-   * @param int $typeId   The ID of the type of the entity.
+   * @param int $nameId   The ID of the name of the entity lock.
    * @param int $entityId The ID of the entity.
    *
    * @return void
@@ -19,7 +19,7 @@ interface EntityLock
    * @since 1.0.0
    * @api
    */
-  public function acquireLock($typeId, $entityId);
+  public function acquireLock($nameId, $entityId);
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -34,14 +34,25 @@ interface EntityLock
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * Returns the ID of the type of the locked entity.
+   * Returns the name of the entity lock.
+   *
+   * @return string
+   *
+   * @since 1.0.0
+   * @api
+   */
+  public function getName();
+
+  //--------------------------------------------------------------------------------------------------------------------
+  /**
+   * Returns the ID of the name of the entity lock.
    *
    * @return int
    *
    * @since 1.0.0
    * @api
    */
-  public function getTypeId();
+  public function getNameId();
 
   //--------------------------------------------------------------------------------------------------------------------
   /**

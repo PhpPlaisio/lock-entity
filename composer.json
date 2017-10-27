@@ -3,6 +3,7 @@
   "description": "ABC-Framework: Entity Lock",
   "keywords": [
     "ABC-Framework",
+    "Entity",
     "Lock"
   ],
   "type": "library",

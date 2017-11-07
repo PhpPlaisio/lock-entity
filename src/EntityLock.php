@@ -58,7 +58,7 @@ interface EntityLock
   /**
    * Returns the current version of the locked entity.
    *
-   * @returns int
+   * @return int
    *
    * @since 1.0.0
    * @api

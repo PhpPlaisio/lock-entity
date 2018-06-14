@@ -19,7 +19,7 @@ interface EntityLock
    * @since 1.0.0
    * @api
    */
-  public function acquireLock($nameId, $entityId);
+  public function acquireLock(int $nameId, int $entityId): void;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -30,7 +30,7 @@ interface EntityLock
    * @since 1.0.0
    * @api
    */
-  public function getEntityId();
+  public function getEntityId(): int;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -41,7 +41,7 @@ interface EntityLock
    * @since 1.0.0
    * @api
    */
-  public function getName();
+  public function getName(): string;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -52,7 +52,7 @@ interface EntityLock
    * @since 1.0.0
    * @api
    */
-  public function getNameId();
+  public function getNameId(): int;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -63,7 +63,7 @@ interface EntityLock
    * @since 1.0.0
    * @api
    */
-  public function getVersion();
+  public function getVersion(): int;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -74,7 +74,7 @@ interface EntityLock
    * @since 1.0.0
    * @api
    */
-  public function updateVersion();
+  public function updateVersion(): void;
 
   //--------------------------------------------------------------------------------------------------------------------
 }

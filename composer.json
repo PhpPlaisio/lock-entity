@@ -1,19 +1,18 @@
 {
-  "name": "setbased/abc-lock-entity",
-  "description": "ABC-Framework: Entity Lock",
+  "name": "plaisio/lock-entity",
+  "description": "PhpPlaisio: Entity Lock",
   "keywords": [
-    "ABC-Framework",
+    "PhpPlaisio",
     "Entity",
     "Lock"
   ],
-  "type": "library",
   "license": "MIT",
   "require": {
     "php": ">=7.1.0"
   },
   "autoload": {
     "psr-4": {
-      "SetBased\\Abc\\Lock\\": "src/"
+      "Plaisio\\Lock\\": "src/"
     }
   }
 }

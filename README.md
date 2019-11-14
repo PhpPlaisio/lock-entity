@@ -1,4 +1,4 @@
-# ABC-Framework: Entity Lock
+# PhpPlaisio: Entity Lock
 
 <table>
 <thead>
@@ -11,18 +11,23 @@
 <tbody>
 <tr>
 <td>
-<a href="https://gitter.im/SetBased/php-abc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/SetBased/php-abc.svg" alt="Gitter"/></a>
+<a href="https://gitter.im/PhpPlaisio/PhpPlaisio"><img src="https://badges.gitter.im/PhpPlaisio/PhpPlaisio.svg" alt="Gitter"/></a>
 </td>
 <td>
-<a href="https://packagist.org/packages/setbased/abc-lock-entity"><img src="https://poser.pugx.org/setbased/abc-lock-entity/license" alt="License"/></a>
+<a href="https://packagist.org/packages/plaisio/lock-entity"><img src="https://poser.pugx.org/plaisio/lock-entity/license" alt="License"/></a>
 </td>
 <td>
-<a href="https://packagist.org/packages/setbased/abc-lock-entity"><img src="https://poser.pugx.org/setbased/abc-lock-entity/v/stable" alt="Latest Stable Version"/></a>
+<a href="https://packagist.org/packages/plaisio/lock-entity"><img src="https://poser.pugx.org/plaisio/lock-entity/v/stable" alt="Latest Stable Version"/></a>
 </td>
 </tr>
 </tbody>
 </table>
 
+Interface for acquiring locks based on database IDs.
+
+# Design
+
+This is an [abstract, responsible and stable package](https://matthiasnoback.nl/book/principles-of-package-design/). Hence, if you see little or non-recent activity in this repository it doesn't mean this projects is dead, but it means we have achieved one of the essentials goals of this package.
 
 #  License
 

@@ -1,0 +1,9 @@
+<kernel>
+    <properties>
+        <property>
+            <type>\Plaisio\Lock\EntityLockFactory</type>
+            <name>entityLock</name>
+            <description>The helper object for optimistically locking entities.</description>
+        </property>
+    </properties>
+</kernel>
